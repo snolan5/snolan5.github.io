@@ -1,0 +1,80 @@
+h3{
+  font-style: italic;
+  font-size: 35px;
+}
+#menu ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #6699ff;
+}
+#menu li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+#menu a:hover{
+  background-color: #555;
+  color: white;
+}
+#About-Me p{
+  font-family: sans-serif;
+  font-size: 15px;
+}
+#Education ul{
+  list-style-type: square;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+/*#Work-Experience table, td, th{
+  border: 3px solid black;
+}
+#Work-Experience table{
+  border-collapse: collapse;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 30px;
+}*/
+#work-Experience th{
+  text-align: left;
+}
+#Programming-Skills p{
+  font-family: sans-serif;
+  font-size: 15px;
+}
+#General-Interests ul{
+  list-style-type: square;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+/*#General-Interests li{
+  	border-bottom:dotted 3px #333;
+    margin-right: 55%;
+}*/
+
+#Favorite-Websites ul{
+  list-style-type: none;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+#Favorite-Websites a:hover{
+  color: hotpink;
+}/*
+#Favorite-Music-Video iframe{
+  width: 65%;
+  height: 55%;
+}
+#Second-Image img{
+  border-style: inset;
+  border-radius: 5px;
+}*/
+.my-form input[type="text"]{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid green;
+  border-radius: 4px;
+}
