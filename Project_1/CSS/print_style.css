@@ -1,0 +1,87 @@
+h3{
+  font-style: italic;
+  font-size: 35px;
+}
+#main-header h1{
+  margin: 0;
+}
+#main-header h3{
+  margin: 0;
+}
+#menu ul{
+  display: none;
+font-size: 30px;
+list-style-type: circle;
+}
+#menu a:hover{
+  background-color: red;
+}
+#About-Me p{
+  font-family: sans-serif;
+  font-size: 30px;
+}
+#Education ul{
+  list-style-type: square;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+#education ul:after {
+    content:"\a";
+    white-space: pre;
+}
+#education:after {
+    content:"\a";
+    white-space: pre;
+}
+#Work-epxerience:before{
+  content:"\a";
+  white-space: pre;
+}
+#Work-Experience table, td, th{
+  border: 3px solid black;
+}
+#Work-Experience table{
+  border-collapse: collapse;
+  width: 100%;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+#work-Experience th{
+  text-align: left;
+}
+#Programming-Skills p{
+  font-family: sans-serif;
+  font-size: 30px;
+}
+#General-Interests ul{
+  list-style-type: square;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+#General-Interests li{
+  	border-bottom:dotted 3px #333;
+    margin-right: 55%;
+}
+#Favorite-Websites ul{
+  list-style-type: square;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+#Favorite-Websites a:hover{
+  color: hotpink;
+}
+#Favorite-Music-Video iframe{
+  display: none;
+}
+#Second-Image img{
+  border-style: inset;
+  border-radius: 5px;
+}
+.my-form input[type="text"]{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid green;
+  border-radius: 4px;
+}
