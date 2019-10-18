@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="CSS/Stylesheet.css" rel="stylesheet">
+  <script src="JS/main.js"></script>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="container">
+          <div class= "jumbotron text-center">
+            <h1 class="display-1">Math quiz</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-sm-3">
+          <div>
+            <h1 class="badge badge-primary" id="QuestionNum">Question #1</h1>
+          </div>
+        </div>
+        <div class="col-sm-3 col-sm-offset-6">
+          <h3 class="badge badge-success" id="score">Score: 0</h3>
+        </div>
+      </div>
+    </div>
+    <div id="Questions" class="container">
+      <div id="Question1" class = "row justify-content-center">
+        <div class= "col-sm-6">
+          <div class="card border-dark mb-3">
+            <div class="card-header">
+          <h3>What is 16 divided by 4?</h3>
+        </div>
+        <div class="card-body">
+          <div class="card-text">
+          <form id="Quest1">
+            <input type="radio" name="option" value="6" required>6<br>
+            <input id="answer1" type="radio" name="option" value="4">4<br>
+            <input type="radio" name="option" value="3">3<br>
+            <input type="radio" name="option" value="2">2<br>
+            <input class="btn btn-submit" type="submit" value="Submit">
+          </form>
+        </div>
+        </div>
+        </div>
+      </div>
+    </div>
+      <div id="Question12" class = "row justify-content-center">
+        <div class= "col-sm-6">
+          <div class="card border-dark mb-3">
+            <div class="card-header">
+          <h3>Which is an acute angle?</h3>
+        </div>
+        <div class="card-body">
+        <div class="card-text">
+          <form id="Quest2">
+            <input id="answer2" type="radio" name="option2" required>
+            <img src="https://www.shareicon.net/data/128x128/2015/11/18/673975_mathematics_512x512.png"><br>
+            <input type="radio" name="option2"><br>
+            <img src= "https://www.shareicon.net/data/128x128/2015/11/18/674073_mathematics_512x512.png"><br>
+            <input type="radio" name="option2"><br>
+            <img src="https://www.shareicon.net/data/128x128/2016/08/06/807950_mathematics_512x512.png"><br>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      <div id="Question123" class = "row justify-content-center">
+        <div class= "col-sm-6">
+          <div class="card border-dark mb-3">
+            <div class="card-header">
+          <h3>Can you divide by 0?</h3>
+        </div>
+        <div class="card-body">
+          <div class="card-text">
+          <form id="Quest3">
+            <input type="radio" name="option3" value="Yes" required>Yes<br>
+            <input id="answer3" type="radio" name="option3" value="No">No<br>
+            <input type="radio" name="option3" value="Sometimes">Sometimes<br>
+            <input type="radio" name="option3" value="Maybe">Maybe<br>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+      <div id="Question1234" class = "row justify-content-center">
+        <div class= "col-sm-6">
+          <div class="card border-dark mb-3">
+            <div class="card-header">
+          <h3>What is 15 multiplied by 2?</h3>
+        </div>
+        <div class="card-body">
+          <div class="card-text">
+          <form id="Quest4">
+            <input type="radio" name="option" value="45" required>45<br>
+            <input type="radio" name="option" value="60">60<br>
+            <input type="radio" name="option" value="7">7<br>
+            <input id="answer4" type="radio" name="option" value="30">30<br>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+      <div id="Question12345" class = "row justify-content-center">
+        <div class= "col-sm-6">
+          <div class="card border-dark mb-3">
+            <div class="card-header">
+          <h3>True or False: The square root of 36 is 6?</h3>
+        </div>
+        <div class="card-body">
+          <div class="card-text">
+            <form id="Quest5">
+              <input id="answer5">
+              <input type="submit" value="Submit">
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="Question123456" class= "row justify-content-center">
+  <div class= "col-sm-6">
+    <div class="card border-dark mb-3">
+      <div class="card-header">
+        <h3>Would you you like to re-take the quiz?</h3>
+      </div>
+      <div class="card-body">
+        <div class="card-text">
+          <button class="btn btn-default" type="button" onClick="window.location.reload();">Re-take</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </body>
