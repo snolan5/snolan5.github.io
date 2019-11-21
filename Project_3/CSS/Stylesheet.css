@@ -1,0 +1,35 @@
+.container {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+  background-color: #e6f7ff;
+  padding: 50px;
+}
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #98b2e6;
+  padding-top: 70px;
+  margin: 35px;
+}
+.carousel-inner > .carousel-item > img{
+  height: 360px; width: 640px;
+}
+#newsContent {
+  position: relative;
+  height: 400px;
+  overflow-y: scroll;
+}
+#card1 {
+  height: 300px;
+}
+.carousel-inner > .carousel-item {
+  width:350px;
+}
+#newsBarContainer {
+  padding: 10px;
+  background-color: #F5F5F5;
+  border: none;
+}
